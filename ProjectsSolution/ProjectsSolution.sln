@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net471Project", "Net471Project\Net471Project.csproj", "{8343EE1C-DAA5-40DE-A833-4CF0C00C586C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net461Project", "Net461Project\Net461Project.csproj", "{F7D4AD38-968B-40AB-8660-8B1947AB2B95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{8343EE1C-DAA5-40DE-A833-4CF0C00C586C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8343EE1C-DAA5-40DE-A833-4CF0C00C586C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8343EE1C-DAA5-40DE-A833-4CF0C00C586C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D4AD38-968B-40AB-8660-8B1947AB2B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D4AD38-968B-40AB-8660-8B1947AB2B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D4AD38-968B-40AB-8660-8B1947AB2B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D4AD38-968B-40AB-8660-8B1947AB2B95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
