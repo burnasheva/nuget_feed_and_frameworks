@@ -26,17 +26,17 @@
                 <dependency id="DateTimeExtensions" version="5.1.0"/>
             </group>
             <group targetFramework="netcoreapp2.1">
-                <package id="DateTimeExtensions" version="5.1.0"/>
-                <package id="FluentLogger" version="3.0.0.30" developmentDependency="true"/>
-                <package id="Microsoft.Build" version="14.3.0"/>
-                <package id="Microsoft.Build.Framework" version="14.3.0"/>
-                <package id="Microsoft.Build.Logging.StructuredLogger" version="1.1.224"/>
-                <package id="Microsoft.Build.Tasks.Core" version="14.3.0"/>
-                <package id="Microsoft.Build.Utilities.Core" version="14.3.0"/>
-                <package id="Nerdbank.GitVersioning" version="2.0.41" developmentDependency="true"/>
-                <package id="System.Collections" version="4.0.11"/>
-                <package id="System.Runtime" version="4.1.0"/>
-                <package id="System.Runtime.InteropServices" version="4.1.0"/>
+                <dependency id="DateTimeExtensions" version="5.1.0"/>
+                <dependency id="FluentLogger" version="3.0.0.30"/>
+                <dependency id="Microsoft.Build" version="14.3.0"/>
+                <dependency id="Microsoft.Build.Framework" version="14.3.0"/>
+                <dependency id="Microsoft.Build.Logging.StructuredLogger" version="1.1.224"/>
+                <dependency id="Microsoft.Build.Tasks.Core" version="14.3.0"/>
+                <dependency id="Microsoft.Build.Utilities.Core" version="14.3.0"/>
+                <dependency id="Nerdbank.GitVersioning" version="2.0.41"/>
+                <dependency id="System.Collections" version="4.0.11"/>
+                <dependency id="System.Runtime" version="4.1.0"/>
+                <dependency id="System.Runtime.InteropServices" version="4.1.0"/>
             </group>
         </dependencies>
     </metadata>
