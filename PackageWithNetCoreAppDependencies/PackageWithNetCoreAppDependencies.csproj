@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentDateTime" Version="1.14.0" />
+      <PackageReference Include="jQuery" Version="3.3.1" />
+      <PackageReference Include="Microsoft.Build.Logging.StructuredLogger" Version="1.1.224" />
+      <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="2.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+      <PackageReference Include="StringUtils" Version="1.2.0" />
+      <PackageReference Include="WindowsAzure.Storage" Version="9.3.1" />
+    </ItemGroup>
+
+</Project>
