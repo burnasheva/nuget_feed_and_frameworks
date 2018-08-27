@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageWithDotNetFrameworkDependencies", "PackageWithDotNetFrameworkDependencies\PackageWithDotNetFrameworkDependencies.csproj", "{C378EF80-48DD-4111-992E-D9B2591BE3B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageWithDotNetFrameworkDependencies", "PackageWithDotNetFrameworkDependencies.csproj", "{C378EF80-48DD-4111-992E-D9B2591BE3B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
