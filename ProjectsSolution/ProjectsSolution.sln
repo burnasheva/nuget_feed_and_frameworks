@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net471Project", "Net471Proj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net461Project", "Net461Project\Net461Project.csproj", "{F7D4AD38-968B-40AB-8660-8B1947AB2B95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net45Project", "Net45Project\Net45Project.csproj", "{9ED4DBCA-D3C9-4711-B1CF-80B956858BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net462Project", "Net462Project\Net462Project.csproj", "{B080C920-D235-4B69-B881-F29C8F5F49D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{F7D4AD38-968B-40AB-8660-8B1947AB2B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7D4AD38-968B-40AB-8660-8B1947AB2B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7D4AD38-968B-40AB-8660-8B1947AB2B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED4DBCA-D3C9-4711-B1CF-80B956858BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED4DBCA-D3C9-4711-B1CF-80B956858BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED4DBCA-D3C9-4711-B1CF-80B956858BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED4DBCA-D3C9-4711-B1CF-80B956858BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B080C920-D235-4B69-B881-F29C8F5F49D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B080C920-D235-4B69-B881-F29C8F5F49D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B080C920-D235-4B69-B881-F29C8F5F49D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B080C920-D235-4B69-B881-F29C8F5F49D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
