@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>PackageWithNetCoreAppDependencies</id>
+        <version>0.0.1</version>
+        <title>Package with .netcoreapp Framework dependencies</title>
+        <authors>burnasheva</authors>
+        <owners>burnasheva</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Some small description</description>
+        <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+        <copyright>Copyright 2018</copyright>
+        <tags>Tag1 Tag2</tags>
+        <dependencies>
+            <group targetFramework="net471">
+                <dependency id="FluentLogger" version="3.0.0.30"/>
+            </group>
+            <group targetFramework="net461">
+                <dependency id="DateTimeExtensions" version="5.1.0"/>
+            </group>
+            <group targetFramework="netstandard2.0">
+                <dependency id="FluentLogger" version="3.0.0.30"/>
+                <dependency id="DateTimeExtensions" version="5.1.0"/>
+            </group>
+            <group targetFramework="netcoreapp2.1">
+                <dependency id="DateTimeExtensions" version="5.1.0"/>
+                <dependency id="FluentLogger" version="3.0.0.30"/>
+                <dependency id="Microsoft.Build" version="14.3.0"/>
+                <dependency id="Microsoft.Build.Framework" version="14.3.0"/>
+                <dependency id="Microsoft.Build.Logging.StructuredLogger" version="1.1.224"/>
+                <dependency id="Microsoft.Build.Tasks.Core" version="14.3.0"/>
+                <dependency id="Microsoft.Build.Utilities.Core" version="14.3.0"/>
+                <dependency id="Nerdbank.GitVersioning" version="2.0.41"/>
+                <dependency id="System.Collections" version="4.0.11"/>
+                <dependency id="System.Runtime" version="4.1.0"/>
+                <dependency id="System.Runtime.InteropServices" version="4.1.0"/>
+            </group>
+        </dependencies>
+    </metadata>
+</package>

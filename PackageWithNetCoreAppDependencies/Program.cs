@@ -13,7 +13,7 @@ namespace PackageWithNetCoreAppDependencies
 
         public static void SomeMethodWithLogger()
         {
-            
+            Console.WriteLine("Some output to the console");
         }
     }
 }
