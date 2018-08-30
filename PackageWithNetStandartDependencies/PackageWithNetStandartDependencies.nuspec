@@ -14,6 +14,9 @@
         <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
         <copyright>Copyright 2018</copyright>
         <tags>Tag1 Tag2</tags>
+        <packageTypes>
+            <packageType name="Dependency" />
+        </packageTypes>
         <dependencies>
             <group targetFramework="net471">
                 <dependency id="FluentLogger" version="3.0.0.30"/>
