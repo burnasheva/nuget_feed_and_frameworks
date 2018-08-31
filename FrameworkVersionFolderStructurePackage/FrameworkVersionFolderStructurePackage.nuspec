@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>FrameworkVersionFolderStructurePackage</id>
+        <version>0.0.1</version>
+        <title>Package with .netstandart 2.0 Framework dependencies and folder structure</title>
+        <authors>nburnasheva</authors>
+        <owners>nburnasheva</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Some small description</description>
+        <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+        <copyright>Copyright 2018</copyright>
+        <tags>Tag1 Tag2</tags>
+        <packageTypes>
+            <packageType name="DotnetCliTool"/>
+        </packageTypes>
+        <dependencies>
+            <group targetFramework="net471">
+                <dependency id="FluentLogger" version="3.0.0.30"/>
+            </group>
+            <group targetFramework="net461">
+                <dependency id="DateTimeExtensions" version="5.1.0"/>
+            </group>
+            <group targetFramework="netstandard2.0">
+                <dependency id="jQuery" version="3.3.1"/>
+                <dependency id="Newtonsoft.Json" version="11.0.2"/>
+                <dependency id="System.Collections" version="4.3.0"/>
+                <dependency id="System.Linq" version="4.3.0"/>
+            </group>
+            <group targetFramework="netcoreapp2.1">
+                <dependency id="DateTimeExtensions" version="5.1.0"/>
+                <dependency id="FluentLogger" version="3.0.0.30"/>
+                <dependency id="jQuery" version="3.3.1"/>
+                <dependency id="Microsoft.Build.Logging.StructuredLogger" version="1.1.224"/>
+                <dependency id="Microsoft.DotNet.Cli.Utils" version="2.0.0"/>
+                <dependency id="Newtonsoft.Json" version="11.0.2"/>
+                <dependency id="StringUtils" version="1.2.0"/>
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="lib\**" target="lib"/>
+        <file src="build\**" target="build"/>
+        <file src="content\**" target="content"/>
+    </files>
+</package>

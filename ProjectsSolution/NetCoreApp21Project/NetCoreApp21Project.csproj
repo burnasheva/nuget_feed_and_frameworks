@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="PackageWithDotnetCliToolType" Version="0.0.1" />
       <PackageReference Include="PackageWithNetCoreAppDependencies" Version="0.0.5" />
     </ItemGroup>
 

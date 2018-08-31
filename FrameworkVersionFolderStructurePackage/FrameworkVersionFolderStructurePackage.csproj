@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="build\net46" />
+      <Folder Include="build\net471" />
+      <Folder Include="build\netstandard2.0" />
+      <Folder Include="build\netstandard2.0-cf" />
+      <Folder Include="lib\net46" />
+      <Folder Include="lib\net471" />
+      <Folder Include="lib\netstandard2.0" />
+      <Folder Include="lib\netstandard2.0-cf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="jQuery" Version="3.3.1" />
+      <PackageReference Include="Microsoft.Net.Http.Headers" Version="2.2.0-preview1-35029" />
+      <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    </ItemGroup>
+
+</Project>
