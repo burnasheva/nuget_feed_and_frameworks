@@ -4,5 +4,6 @@ namespace DependencyFromTeamCityFeed
 {
     public class Class1
     {
+        
     }
 }
