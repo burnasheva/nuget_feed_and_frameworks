@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 
 namespace PackageWithNetStandartDependencies
 {
-    public class Calculator
+    public static class Calculator
     {
         public static double Plus(double a, double b)
         {
