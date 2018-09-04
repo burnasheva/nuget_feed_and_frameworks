@@ -5,7 +5,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="PackageWithNetStandartDependencies" Version="0.0.6" />
+      <PackageReference Include="Calculator" Version="0.0.3" />
+      <PackageReference Include="NUnit" Version="3.10.1" />
+      <PackageReference Include="PackageWithNetStandartDependencies" Version="0.0.12" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="TestProject\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="TestProject\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="TestProject\**" />
     </ItemGroup>
 
 </Project>
