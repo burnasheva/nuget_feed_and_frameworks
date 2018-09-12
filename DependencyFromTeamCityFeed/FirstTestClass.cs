@@ -2,12 +2,13 @@
 
 namespace DependencyFromTeamCityFeed
 {
+    [TestFixture]
     public class FirstTestClass
     {
         [Test]
-        public void TestCalculatorDependency()
+        public static void TestCalculatorDependency()
         {
-            Assert.Equals(3.4, Calculator.Calculator.Plus(2.0, 1.4));
+            Assert.AreEqual(3.4, Calculator.Calculator.Plus(2.0, 1.4));
         }
     }
 }
