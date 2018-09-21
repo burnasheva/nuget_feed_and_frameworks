@@ -1,2 +1,2 @@
 # nuget_feed_and_frameworks
-Полностью меняем текст readme
+Simple .net projects for creating nuget packages with various framework requirements
