@@ -7,6 +7,7 @@ namespace Calculator
         public static double Plus(double a, double b)
         {
             return a + b;
+            
         }
     }
 }
