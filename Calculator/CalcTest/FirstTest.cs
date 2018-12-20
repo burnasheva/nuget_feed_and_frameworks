@@ -32,7 +32,7 @@ namespace CalcTest
         [TestMethod]
         public void FifthTestMethod()
         {
-            Assert.IsNotNull(5);
+            Assert.IsNotNull(null);
             
         }
 
