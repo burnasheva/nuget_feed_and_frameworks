@@ -28,5 +28,11 @@ namespace CalcTest
         {
             Assert.IsNull(null);
         }
+
+        [TestMethod]
+        public void FifthTestMethod()
+        {
+            Assert.IsNotNull(5);
+        }
     }
 }
