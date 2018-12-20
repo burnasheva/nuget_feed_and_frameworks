@@ -26,13 +26,13 @@ namespace CalcTest
         [TestMethod]
         public void FourthTestMethod()
         {
-            Assert.IsNull(4);
+            Assert.IsNull(null);
         }
 
         [TestMethod]
         public void FifthTestMethod()
         {
-            Assert.IsNotNull(null);
+            Assert.IsNotNull(5);
             
         }
 
@@ -45,7 +45,7 @@ namespace CalcTest
         [TestMethod]
         public void TestShouldFail()
         {
-            Assert.IsNotNull(null);
+            Assert.IsNotNull(5);
         }
     }
 }
