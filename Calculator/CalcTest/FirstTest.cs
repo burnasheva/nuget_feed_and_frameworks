@@ -14,13 +14,19 @@ namespace CalcTest
         [TestMethod]
         public void SecondTestMethod()
         {
-            Assert.IsFalse(true);
+            Assert.IsFalse(false);
         }
 
         [TestMethod]
         public void ThirdTestMethod()
         {
             Assert.AreEqual(5, 2 + 3);
+        }
+
+        [TestMethod]
+        public void FourthTestMethod()
+        {
+            Assert.IsNull(null);
         }
     }
 }
