@@ -10,5 +10,11 @@ namespace CalcTest
         {
             Assert.IsTrue(true);
         }
+
+        [ITestMethod]
+        public void SecondTestMethod()
+        {
+            Assert.IsFalse(false);
+        }
     }
 }
