@@ -45,7 +45,7 @@ namespace CalcTest
         [TestMethod]
         public void TestShouldFail()
         {
-            Assert.IsNotNull(5);
+            Assert.IsNotNull(null);
         }
     }
 }
