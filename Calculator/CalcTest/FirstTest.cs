@@ -26,7 +26,7 @@ namespace CalcTest
         [TestMethod]
         public void FourthTestMethod()
         {
-            Assert.IsNull(null);
+            Assert.IsNull(4);
         }
 
         [TestMethod]
