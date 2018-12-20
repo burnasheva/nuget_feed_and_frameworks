@@ -16,5 +16,11 @@ namespace CalcTest
         {
             Assert.IsFalse(true);
         }
+
+        [TestMethod]
+        public void ThirdTestMethod()
+        {
+            Assert.AreEqual(5, 2 + 3);
+        }
     }
 }
